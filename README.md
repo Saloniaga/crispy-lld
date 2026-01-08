@@ -206,15 +206,4 @@ This is a **real-world LLD problem** commonly asked in interviews.
 
 This repo is intentionally written to support **verbal explanation**, not just execution.
 
----
-
-## ✅ Next Improvements (Planned)
-
-* Add UML-style diagrams
-* Add unit tests
-* Convert Parking Lot into a full end-to-end design
-* Add README per package
-
----
-
 ⭐ If you find this useful, feel free to fork and adapt it for your own interview prep.

@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.OpenClosedPrinciple.solid.HDQuality;
-import org.example.OpenClosedPrinciple.solid.SDQuality;
-import org.example.OpenClosedPrinciple.solid.VideoPlayer;
+import org.example.solid.open_closed.solid.HDQuality;
+import org.example.solid.open_closed.solid.SDQuality;
+import org.example.solid.open_closed.solid.VideoPlayer;
 
 public class Main {
     public static void main(String[] args) {
