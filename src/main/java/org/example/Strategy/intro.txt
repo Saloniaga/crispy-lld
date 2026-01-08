@@ -1,0 +1,8 @@
+There should be a service where you feed which strategy you would like
+There should be a parent strategy interface, and concrete strategy classes, each with their impl.
+
+Notification Service
+Notification Strategy
+        ->Whatsapp
+        ->Email
+        ->SMS
