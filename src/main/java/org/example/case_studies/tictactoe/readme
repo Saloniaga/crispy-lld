@@ -1,0 +1,24 @@
+Functional rqr:
+1.  2 player (extensible)
+2. NxN board
+3. Players take turn
+4. Detect winner
+
+Entities:
+Cell
+Board
+Player
+Also: Move
+Also: WinningStrategy
+Also: Game
+
+input:
+no of players: 2
+name1, token1 : Shalu X
+name2, token2: Anshika O
+size of board: 3
+Cell location: 0,0
+.
+.
+.
+Shalu wins!
