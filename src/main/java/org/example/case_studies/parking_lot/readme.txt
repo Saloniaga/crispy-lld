@@ -1,21 +1,25 @@
-Vehicle enters
-given a ticket that has entry time
-selects a spot
-when vehicle exits, pays the amount
-finds realtime availability
+Funtional rqr:
+1. Parking Lot has multiple floor.
+2. Parking Slot of type: BIKE, CAR, TRUCK
+3. On entry, vehicle is issued a ticket and parking slot is assigned.
+4. On exit, price is calculated and the parking slot is made available.
 
-Objects:
-Vehicle - vehicle no, vehicle type
-Ticket - ticket status, entry time, finds spot
-Parking Spot - spot no, spot type, occupied, price
-Payment - status
-Gate (Entrance and Exit)
-Entrance: finds parking space, generates tickets, reduces spot
-Exit: cost calculation based on parking spot and time, starts payment, updates spot occupancy
+Entities:
+VehicleType: BIKE, CAR, TRUCK
+Vehicle: VehicleType, ParkingSlot
+Ticket
+ParkingSlot
 
-Enums:
-Vehicles type: two wheelers, 4 wheelers, truck
-Parking Spot type: small, medium, large
-Ticket Status: active, paid
+PricingStrategy
+BikePricingStrategy
+CarPricingStrategy
+TruckPricingStrategy
 
-Vehicle:
+Factory in Creating Slot depending on VehicleType
+
+SlotFactory
+PricingStrategyFactory
+
+SlotManager (thread safe + optimized)
+ParkingLot (singleton)
+Main
